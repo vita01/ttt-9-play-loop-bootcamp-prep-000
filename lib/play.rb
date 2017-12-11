@@ -35,10 +35,10 @@ def turn(board)
   end
 end
 def play(board)
-  i=0
-  while board.include? " "
+  counter = 0;
+  while counter < 9 do
     turn(board)
-    i+=1
+    counter += 1
   end
 end
 
