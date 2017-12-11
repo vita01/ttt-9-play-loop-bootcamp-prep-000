@@ -36,7 +36,7 @@ def turn(board)
 end
 def play(board)
   i=0
-  while board[i].include? " "
+  while board.include? " "
     turn(board)
     i+=1
   end
